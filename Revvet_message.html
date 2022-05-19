@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Revvet</title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style/stylesheet">
+        <script src="Revvet_message.js"></script>
+    </head>
+    <body>
+        <h1 class="btn btn-success" id="title"></h1>
+        <button class="btn btn-danger" onclick="logout()">Logout</button>
+        <center>
+            <div class="btn btn-info">
+                <p class="btn btn-danger" id="message"></p>
+                <div class="row">
+                    <input id="messager" class="btn btn-warning">
+                    <button class="btn btn-primary" onclick="send()">Send</button>
+                </div>
+            </div>
+        </center>
+    </body>
+</html>
